@@ -1,4 +1,4 @@
-package abstract_factory;
+package abstract_factory.factory;
 
 import abstract_factory.decoders.RegisterAccountDecoder;
 import abstract_factory.decoders.RegisterClientDecoder;
