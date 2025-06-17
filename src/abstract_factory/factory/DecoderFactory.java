@@ -1,5 +1,8 @@
 package abstract_factory;
 
+import abstract_factory.decoders.RegisterAccountDecoder;
+import abstract_factory.decoders.RegisterClientDecoder;
+
 // Fábrica abstrata
 public abstract class DecoderFactory {
   public abstract RegisterClientDecoder createRegisterClientDecoder();
