@@ -1,5 +1,10 @@
 package abstract_factory;
 
+import abstract_factory.decoders.RegisterAccountDecoder;
+import abstract_factory.decoders.RegisterAccountXMLDecoder;
+import abstract_factory.decoders.RegisterClientDecoder;
+import abstract_factory.decoders.RegisterClientXMLDecoder;
+
 public class IntegrationService {
 
   public void registerClient(String text, String origin) {
